@@ -14,7 +14,7 @@ netstat -nat|grep -E '443|80'|wc -l
 
 ## 依赖
 
-+ 安装了VerNginx
++ 安装了VeryNginx
 + VeryNginx必须安装在默认位置，否则需要修改`modules/veryNginx.go`中的路径
 + 命令`nginx`在shell中可用，用于重载配置
 + 浏览器验证规则已配置并开启，本程序控制的是浏览器验证总开关
